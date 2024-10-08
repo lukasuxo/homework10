@@ -13,10 +13,11 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;align-items: center;
     width: 80%;
     height: 90vh;
-    border: 2px solid black;
     background: var(--Very-Light-blue, #ECF2FF);
+    gap: 60px;
 }
 .header{
     display: flex;
@@ -25,7 +26,8 @@ body{
     flex-direction: column;
     gap: 16px;
 }
-h1{
+h1{ 
+    display: flex;
     color: #4D4F62;
 font-family: Poppins;
 font-size: 36px;
@@ -35,6 +37,7 @@ line-height: normal;
 letter-spacing: 0.25px;
 }
 h2{
+    display: flex;
     color: #4D4F62;
 text-align: center;
 font-family: Poppins;
@@ -45,6 +48,7 @@ line-height: normal;
 letter-spacing: 0.25px;
 }
 p{
+    display: flex;
     color: #4D4F62;
 text-align: center;
 font-family: Poppins;
@@ -76,9 +80,10 @@ line-height: normal;
 }
 .card1{
    display: flex; 
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 60px;
+ gap: 30px;
 
 }
 .item{
@@ -89,10 +94,98 @@ line-height: normal;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
     padding: 32px;
     gap: 32px;
-}
-.card2{
-    display: flex;
-   align-items: start;
-   justify-content: start;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
+.two {
+    display: flex;
+flex-direction: column;
+    gap: 30px;
+  }
+.card2 {
+    width: 1100px;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .upper {
+    width: 1100px;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+  }
+  
+  .head1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.25px;
+  }
+  
+  .head2 {
+    text-align: center;
+    font-style: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+  }
+  
+  .head3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.104px;
+  }
+  .img{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 60px;
+    padding-left: 230px;
+  }
+.img2{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 40px;
+    padding-left: 230px;   
+}
+.img3{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 40px;
+    padding-left: 230px;   
+}
+.img4{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 40px;
+    padding-left: 230px;   
+}
+  .supervision{
+    border-top: 4px solid rgb(0, 234, 255);
+  }
+  .team-builder{
+    border-top: 4px solid rgb(255, 0, 0);
+  }
+  .karma{
+    border-top: 4px solid rgb(246, 255, 0);
+  }
+  .calculator{
+    border-top: 4px solid aqua;
+  }
+  
